@@ -19,7 +19,7 @@ Setup a new Vue Project
 ```
 Install ButterCMS
 `npm i -S buttercms`
-The source code is [available on Github](https://github.com/bmrankin/buttercms-project)
+The source code is [available on Github](https://github.com/ButterCMS/buttercms-vue-tutorial)
 
 ## Quickstart
 Open the project in your code editor of choice.
