@@ -28,7 +28,7 @@ We create a file called `buttercms.js` in our src directory. This allows us to h
 
 ```
 import Butter from 'buttercms';
-const butter = Butter('your_api_token');
+export const butter = Butter('your_api_token');
 ```
 
 We'll import this file into any component we want to use ButterCMS.
@@ -128,7 +128,7 @@ npm run dev
 `src/buttercms.js`
 ```
 import Butter from 'buttercms';
-const butter = Butter('your_api_token');
+export const butter = Butter('your_api_token');
 ```
 
 ### Update the routes in your app
