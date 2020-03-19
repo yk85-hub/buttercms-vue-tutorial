@@ -8,6 +8,16 @@
         <div class="columns">
           <div class="column has-text-centered">
          Hi, it is my first Vue web app
+         
+         <carousel>
+  <slide>
+    Slide 1 Content
+  </slide>
+  <slide>
+    Slide 2 Content
+  </slide>
+</carousel>
+         
           </div>
         </div>
       </div>
