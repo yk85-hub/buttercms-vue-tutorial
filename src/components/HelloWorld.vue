@@ -101,5 +101,7 @@
 </script>
 
 <style>
-  
+ figure {
+    width: 60px;
+}
 </style>
