@@ -125,6 +125,6 @@
 
 <style>
  figure {
-    width: 60px;
+    width:;
 }
 </style>
