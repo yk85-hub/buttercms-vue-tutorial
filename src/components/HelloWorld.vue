@@ -1,5 +1,23 @@
 <template>
   <div class="hello">
+  
+  
+  
+  	<div class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+         Hi, it is my first Vue web app
+          </div>
+        </div>
+      </div>
+    </div>
+	
+  
+  
+  
+  
+  
     <div class="section">
       <div class="container">
         <div class="columns">
@@ -47,16 +65,7 @@
 	
 	
 	
-	<div class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column has-text-centered">
-           Привет, это мой первый сайт на Vue
-          </div>
-        </div>
-      </div>
-    </div>
-	
+
 	
 	
 	
