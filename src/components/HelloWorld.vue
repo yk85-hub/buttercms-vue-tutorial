@@ -27,6 +27,21 @@
   </VueSlickCarousel>
 </template>
   
+  <script>
+  import 'vue-slick-carousel/dist/slick.css'
+  import 'vue-slick-carousel/dist/slick-theme.css'
+
+  import VueSlickCarousel from 'vue-slick-carousel'
+
+  export default {
+    name: 'MyComponent',
+    components: { VueSlickCarousel },
+  }
+</script>
+  
+  
+  
+  
          </div>
         </div>
       </div>
