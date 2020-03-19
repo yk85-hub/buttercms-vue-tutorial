@@ -13,7 +13,7 @@
           <div class="column has-text-centered">
             <a href="https://buttercms.com/">
               <figure>
-                <img src="../assets/buttercms.jpg" alt="ButterCMS logo">
+                <img src="../assets/buttercms.jpg" alt="ButterCMS logo">hhhhh
               </figure>
             </a>
           </div>
