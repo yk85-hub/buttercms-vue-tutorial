@@ -11,10 +11,7 @@
           <router-link class="navbar-item" to="/customers">
             Customers
           </router-link>
-          <router-link class="navbar-item" to="/faq">
-            FAQ
-          </router-link>
-          <router-link class="navbar-item" to="/blog">
+                <router-link class="navbar-item" to="/blog">
             Blog Posts
           </router-link>
           <router-link class="navbar-item" to="/rss">
