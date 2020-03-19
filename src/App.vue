@@ -27,7 +27,7 @@
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <strong>Tutorial</strong> by <a href="https://bryanrankin.com">Bryan Rankin</a>.
+            <strong></strong><a href="/">Yuri Buller</a>.
           </p>
         </div>
       </div>
