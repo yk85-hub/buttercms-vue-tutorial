@@ -18,6 +18,13 @@
                 <div class="media-content">
                   <div class="content">
                     <h2 class="title is-5">{{ page.fields.headline }}</h2>
+                    new Vue({
+    el: '#app',
+    data: {
+        message: 'Hello Vue.js!'
+    }
+})
+                    
                   </div>
                 </div>
               </article>
