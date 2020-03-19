@@ -13,13 +13,29 @@
           <div class="column has-text-centered">
             <a href="https://buttercms.com/">
               <figure>
-                <img src="../assets/buttercms.jpg" alt="ButterCMS logo">hhhhh
+                <img src="../assets/buttercms.jpg" alt="ButterCMS logo">
               </figure>
             </a>
           </div>
         </div>
       </div>
     </div>
+	
+	
+	
+	<div class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-centered">
+           Привет, это мой первый сайт на Vue
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+	
+	
   </div>
 </template>
 
