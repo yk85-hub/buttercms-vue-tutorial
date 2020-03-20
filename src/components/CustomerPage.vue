@@ -1,47 +1,53 @@
-
 <template>
-  <v-card
-    class="mx-auto"
-    max-width="434"
-    tile
-  >
-    <v-img
-      height="100%"
-      src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg"
-    >
-      <v-row
-        align="end"
-        class="fill-height"
-      >
-        <v-col
-          align-self="start"
-          class="pa-0"
-          cols="12"
-        >
-          <v-avatar
-            class="profile"
-            color="grey"
-            size="164"
-            tile
-          >
-            <v-img src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"></v-img>
-          </v-avatar>
-        </v-col>
-        <v-col class="py-0">
-          <v-list-item
-            color="rgba(0, 0, 0, .4)"
-            dark
-          >
-            <v-list-item-content>
-              <v-list-item-title class="title">Marcus Obrien</v-list-item-title>
-              <v-list-item-subtitle>Network Engineer</v-list-item-subtitle>
-            </v-list-item-content>
-          </v-list-item>
-        </v-col>
-      </v-row>
-    </v-img>
-  </v-card>
+  <v-row align="center">
+    <v-col class="text-center" cols="12" sm="4">
+      <div class="my-2">
+        <v-btn text small>Normal</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text small color="primary">Primary</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text small color="error">Error</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text small disabled>Disabled</v-btn>
+      </div>
+    </v-col>
+
+    <v-col class="text-center" cols="12" sm="4">
+      <div class="my-2">
+        <v-btn text>Normal</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text color="primary">Primary</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text color="error">Error</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text disabled>Disabled</v-btn>
+      </div>
+    </v-col>
+
+    <v-col class="text-center" cols="12" sm="4">
+      <div class="my-2">
+        <v-btn text large>Normal</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text large color="primary">Primary</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text large color="error">Error</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn text large disabled>Disabled</v-btn>
+      </div>
+    </v-col>
+  </v-row>
 </template>
+
+
 <script>
   import { butter } from '@/buttercms'
   export default {
