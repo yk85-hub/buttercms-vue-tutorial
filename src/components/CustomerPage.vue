@@ -1,17 +1,47 @@
-<template>
-  <div class="section" id="customer-page">
-    <div class="container center">
-      <figure class="image is-128x128">
-        <img :src="page.fields.customer_logo">
-      </figure>
-      <h1 class="is-size-2">{{ page.fields.headline }}</h1>
-      <h3 class="is-size-3">Testimonials</h3>
-      <div class="content" v-html="page.fields.testimonial"></div>
-      <div class="content" v-html="page.fields.body"></div>
-    </div>
-  </div>
-</template>
 
+<template>
+  <v-card
+    class="mx-auto"
+    max-width="434"
+    tile
+  >
+    <v-img
+      height="100%"
+      src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg"
+    >
+      <v-row
+        align="end"
+        class="fill-height"
+      >
+        <v-col
+          align-self="start"
+          class="pa-0"
+          cols="12"
+        >
+          <v-avatar
+            class="profile"
+            color="grey"
+            size="164"
+            tile
+          >
+            <v-img src="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"></v-img>
+          </v-avatar>
+        </v-col>
+        <v-col class="py-0">
+          <v-list-item
+            color="rgba(0, 0, 0, .4)"
+            dark
+          >
+            <v-list-item-content>
+              <v-list-item-title class="title">Marcus Obrien</v-list-item-title>
+              <v-list-item-subtitle>Network Engineer</v-list-item-subtitle>
+            </v-list-item-content>
+          </v-list-item>
+        </v-col>
+      </v-row>
+    </v-img>
+  </v-card>
+</template>
 <script>
   import { butter } from '@/buttercms'
   export default {
